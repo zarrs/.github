@@ -1,4 +1,9 @@
-# `zarrs`
+# zar<ins>rs</ins>
+
+[`zarrs`] is a Rust library for the [Zarr] storage format for multidimensional arrays and metadata.
+
+- The main `zarrs` repository can be found at <https://github.com/LDeakin/zarrs>.
+- [`zarrs-python`](https://github.com/ilan-gold/zarrs-python) is a high-performance codec pipeline for the `zarr-python` reference Zarr implementation.
 
 This organisation mainly exists to serve `zarrs` web content:
 - The `zarrs` Website <https://zarrs.dev>
@@ -36,6 +41,8 @@ This organisation mainly exists to serve `zarrs` web content:
   - Create an [OME-Zarr] hierarchy from a Zarr array.
   - Transform arrays: crop, rescale, downsample, gradient magnitude, gaussian, noise filtering, etc.
   - Benchmarking tools and performance benchmarks of `zarrs`.
+
+[Zarr]: zarr.dev
 
 [`zarrs`]: https://github.com/LDeakin/zarrs/tree/main/zarrs
 [`zarrs_data_type`]: https://github.com/LDeakin/zarrs/tree/main/zarrs_data_type
