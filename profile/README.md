@@ -3,7 +3,7 @@
 [`zarrs`] is a Rust library for the [Zarr] storage format for multidimensional arrays and metadata.
 
 - The main `zarrs` repository can be found at <https://github.com/zarrs/zarrs>.
-- [`ilan-gold/zarrs-python`](https://github.com/ilan-gold/zarrs-python) is a high-performance codec pipeline for the [`zarr-python`](https://github.com/zarr-developers/zarr-python) reference Python implementation of Zarr.
+- [`ilan-gold/zarrs-python`](https://github.com/ilan-gold/zarrs-python) is a high-performance codec pipeline for the [`zarr-developers/zarr-python`](https://github.com/zarr-developers/zarr-python) reference Python implementation of Zarr.
 
 This organisation hosts `zarrs` related repositories and serves `zarrs` web content:
 - The `zarrs` Website <https://zarrs.dev>
