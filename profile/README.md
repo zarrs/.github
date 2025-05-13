@@ -63,3 +63,4 @@ This organisation hosts `zarrs` related repositories and serves `zarrs` web cont
 [`object_store`]: https://github.com/apache/arrow-rs/tree/main/object_store
 [`opendal`]: https://github.com/apache/OpenDAL
 [`icechunk`]: https://github.com/earth-mover/icechunk
+[OME-Zarr]: https://ngff.openmicroscopy.org/latest/
