@@ -1,7 +1,7 @@
 # zar<ins>rs</ins>
 
 [`zarrs`] is a Rust library for the [Zarr] storage format for multidimensional arrays and metadata.
-[`zarrs`] can be used as a codec pipeline in [`zarr-developers/zarr-python`], and also has C/C++ bindings.
+[`zarrs`] can be used as an alternative high-performance codec pipeline in [`zarr-developers/zarr-python`].
 
 This organisation hosts `zarrs` related repositories and serves `zarrs` web content:
 - The `zarrs` Website <https://zarrs.dev>
