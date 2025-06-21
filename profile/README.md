@@ -1,9 +1,7 @@
 # zar<ins>rs</ins>
 
 [`zarrs`] is a Rust library for the [Zarr] storage format for multidimensional arrays and metadata.
-
-- The main `zarrs` repository can be found at <https://github.com/zarrs/zarrs>.
-- [`ilan-gold/zarrs-python`](https://github.com/ilan-gold/zarrs-python) is a high-performance codec pipeline for the [`zarr-developers/zarr-python`](https://github.com/zarr-developers/zarr-python) reference Python implementation of Zarr.
+[`zarrs`] can be used as a codec pipeline in [`zarr-developers/zarr-python`], and also has C/C++ bindings.
 
 This organisation hosts `zarrs` related repositories and serves `zarrs` web content:
 - The `zarrs` Website <https://zarrs.dev>
@@ -13,6 +11,12 @@ This organisation hosts `zarrs` related repositories and serves `zarrs` web cont
 
 ### Core
 - [`zarrs`]: The core library for manipulating Zarr hierarchies.
+
+### Bindings
+- [`zarrs-python`]: A high-performance codec pipeline for [`zarr-developers/zarr-python`].
+- [`zarrs_ffi`]: A subset of `zarrs` exposed as a C/C++ API.
+
+### Supporting Crates
 - [`zarrs_metadata`]: Zarr metadata support (re-exported as `zarrs::metadata`).
 - [`zarrs_metadata_ext`]: Zarr extensions metadata support.
 - [`zarrs_data_type`]: The data type extension API for `zarrs` (re-exported in `zarrs::array::data_type`).
@@ -29,10 +33,6 @@ This organisation hosts `zarrs` related repositories and serves `zarrs` web cont
 - [`zarrs_icechunk`]: [`icechunk`] store support.
   - `git`-like version control for Zarr hierachies.
   - Read "virtual Zarr datacubes" of archival formats (e.g., [`netCDF4`](https://www.unidata.ucar.edu/software/netcdf/), [`HDF5`](https://www.hdfgroup.org/solutions/hdf5/), etc.) created by [`VirtualiZarr`](https://github.com/zarr-developers/VirtualiZarr) and backed by [`icechunk`].
-
-### Bindings
-- [`zarrs-python`]: A high-performance codec pipeline for [`zarr-python`].
-- [`zarrs_ffi`]: A subset of `zarrs` exposed as a C/C++ API.
 
 ### Zarr Metadata Conventions
 - [`ome_zarr_metadata`]: A library for OME-Zarr (previously OME-NGFF) metadata.
@@ -63,7 +63,7 @@ This organisation hosts `zarrs` related repositories and serves `zarrs` web cont
 [`zarrs_icechunk`]: https://github.com/zarrs/zarrs_icechunk
 [`zarrs_ffi`]: https://github.com/zarrs/zarrs_ffi
 [`zarrs-python`]: https://github.com/zarrs/zarrs-python
-[`zarr-python`]: https://github.com/zarr-developers/zarr-python
+[`zarr-developers/zarr-python`]: https://github.com/zarr-developers/zarr-python
 [`zarrs_tools`]: https://github.com/zarrs/zarrs_tools
 [`zarr_benchmarks`]: https://github.com/zarrs/zarr_benchmarks
 [`ome_zarr_metadata`]: https://github.com/zarrs/rust_ome_zarr_metadata
