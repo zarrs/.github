@@ -66,7 +66,7 @@ This organisation hosts `zarrs` related repositories and serves `zarrs` web cont
 [`zarr-developers/zarr-python`]: https://github.com/zarr-developers/zarr-python
 [`zarrs_tools`]: https://github.com/zarrs/zarrs_tools
 [`zarr_benchmarks`]: https://github.com/zarrs/zarr_benchmarks
-[`ome_zarr_metadata`]: https://github.com/zarrs/rust_ome_zarr_metadata
+[`ome_zarr_metadata`]: https://github.com/zarrs/ome_zarr_metadata
 [`object_store`]: https://github.com/apache/arrow-rs/tree/main/object_store
 [`opendal`]: https://github.com/apache/OpenDAL
 [`icechunk`]: https://github.com/earth-mover/icechunk
