@@ -59,7 +59,7 @@ This organisation hosts `zarrs` related repositories and serves `zarrs` web cont
 [`zarrs_http`]: https://github.com/zarrs/zarrs/tree/main/zarrs_http
 [`zarrs_object_store`]: https://github.com/zarrs/zarrs/tree/main/zarrs_object_store
 [`zarrs_opendal`]: https://github.com/zarrs/zarrs_opendal
-[`zarrs_zip`]: https://github.com/zarrs/zarrs/tree/main/zarrs_zip
+[`zarrs_zip`]: https://github.com/zarrs/zarrs_zip
 [`zarrs_icechunk`]: https://github.com/zarrs/zarrs_icechunk
 [`zarrs_ffi`]: https://github.com/zarrs/zarrs_ffi
 [`zarrs-python`]: https://github.com/zarrs/zarrs-python
