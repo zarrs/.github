@@ -15,6 +15,8 @@ This organisation hosts `zarrs` related repositories and serves `zarrs` web cont
 ### Bindings
 - [`zarrs-python`]: A high-performance codec pipeline for [`zarr-developers/zarr-python`].
 - [`zarrs_ffi`]: A subset of `zarrs` exposed as a C/C++ API.
+- [`earth-mover/Zarrs.jl`]: High-performance Zarr V2 and V3 arrays for Julia, powered by the `zarrs` Rust library.
+- [`mdsumner/zr`]: Zarr V2/V3 arrays for R, via the `zarrs` Rust crate.
 
 ### Supporting Crates
 - [`zarrs_metadata`]: Zarr metadata support (re-exported as `zarrs::metadata`).
@@ -24,7 +26,7 @@ This organisation hosts `zarrs` related repositories and serves `zarrs` web cont
 - [`zarrs_plugin`]: The plugin API for `zarrs` (re-exported as `zarrs::plugin`).
 - [`zarrs_registry`]: The Zarr extension point registry for `zarrs` (re-exported as `zarrs::registry`).
 
-### Stores
+### Stores and Zarr Virtualisation
 - [`zarrs_filesystem`]: A filesystem store (re-exported as `zarrs::filesystem`).
 - [`zarrs_object_store`]: [`object_store`] store support.
 - [`zarrs_opendal`]: [`opendal`] store support.
@@ -33,12 +35,14 @@ This organisation hosts `zarrs` related repositories and serves `zarrs` web cont
 - [`zarrs_icechunk`]: [`icechunk`] store support.
   - `git`-like version control for Zarr hierachies.
   - Read "virtual Zarr datacubes" of archival formats (e.g., [`netCDF4`](https://www.unidata.ucar.edu/software/netcdf/), [`HDF5`](https://www.hdfgroup.org/solutions/hdf5/), etc.) created by [`VirtualiZarr`](https://github.com/zarr-developers/VirtualiZarr) and backed by [`icechunk`].
+- [`clbarnes/zarrs_n5`]: N5 (Not HDF5) storage format support for the `zarrs` ecosystem.
 
 ### Zarr Metadata Conventions
 - [`ome_zarr_metadata`]: A library for OME-Zarr (previously OME-NGFF) metadata.
+- [`clbarnes/zarrs_conventions`]: An implementation of [`zarr-conventions`] for `zarrs` ecosystem.
 
 ### Tools
-- [`zarrs_tools`]: Various tools for creating and manipulating Zarr V3 data with the zarrs rust crate
+- [`zarrs_tools`]: Various tools for creating and manipulating Zarr V3 data with the zarrs Rust crate
   - A reencoder that can change codecs, chunk shape, convert Zarr V2 to V3, etc.
   - Create an [OME-Zarr] hierarchy from a Zarr array.
   - Transform arrays: crop, rescale, downsample, gradient magnitude, gaussian, noise filtering, etc.
@@ -66,8 +70,15 @@ This organisation hosts `zarrs` related repositories and serves `zarrs` web cont
 [`zarr-developers/zarr-python`]: https://github.com/zarr-developers/zarr-python
 [`zarrs_tools`]: https://github.com/zarrs/zarrs_tools
 [`zarr_benchmarks`]: https://github.com/zarrs/zarr_benchmarks
+
 [`ome_zarr_metadata`]: https://github.com/zarrs/ome_zarr_metadata
 [`object_store`]: https://github.com/apache/arrow-rs/tree/main/object_store
 [`opendal`]: https://github.com/apache/OpenDAL
 [`icechunk`]: https://github.com/earth-mover/icechunk
 [OME-Zarr]: https://ngff.openmicroscopy.org/latest/
+
+[`clbarnes/zarrs_n5`]:  https://github.com/clbarnes/zarrs_n5
+[`zarr-conventions`]: https://github.com/zarr-conventions
+[`clbarnes/zarrs_conventions`]: https://github.com/clbarnes/zarrs_conventions
+[`earth-mover/Zarrs.jl`]: https://github.com/earth-mover/Zarrs.jl
+[`mdsumner/zr`]: https://github.com/mdsumner/zr
